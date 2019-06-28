@@ -1,0 +1,51 @@
+body {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+}
+#intro {
+    width: 100%;
+    color: #AED6F1;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.col {
+    display: inline-block;
+    width: auto;
+    justify-content: center;
+    color: #AED6F1;
+    font-family: 'Coming Soon', cursive;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px dotted white;
+    text-align: center;
+}
+
+.col h2 {
+    margin: 0;
+}
+.col a:hover {
+    animation: bounce 1s forwards; 
+}
+
+a {
+    text-decoration: none;
+    color: #AED6F1;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate(0,0px);
+    } to {
+        transform: translate(0,10px);
+    }
+}
